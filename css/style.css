@@ -1,0 +1,85 @@
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+.nav-list .nav-item .nav-logo {
+  color: #000;
+}
+.nav-list .nav-right {
+  display: flex;
+  font-weight: bold;
+  width: 250px;
+  justify-content: space-around;
+}
+.nav-list .nav-right a {
+  color: #000;
+}
+
+.header-line-bottom {
+  border: 0.5px solid rgba(59, 58, 58, 0.5);
+  box-shadow: 2px 2px 5px 3px rgba(59, 58, 58, 0.5);
+}
+
+.info button[type=submit] {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.info-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 10px 20px;
+  font-weight: bold;
+}
+.info-nav a {
+  color: #000;
+}
+
+.info-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.info-content .info-text {
+  width: 300px;
+  margin-bottom: 30px;
+}
+.info-content .info-text li:nth-child(2) {
+  padding: 10px 0;
+}
+.info-content .info-text li:nth-child(2) span {
+  font-weight: bold;
+  font-size: 18px;
+}
+.info-content .info-text p {
+  margin-top: 10px;
+  text-align: justify;
+}
+.info-content .info-text img {
+  width: 300px;
+  height: 200px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "Arial";
+  text-decoration: none;
+}
+
+.container {
+  width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
